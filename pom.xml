@@ -23,6 +23,39 @@
             <version>1.2</version>
         </dependency>
 
+        <!-- slf4j +logback 最简日志配置   开始 -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.25</version>
+        </dependency>
+
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-core</artifactId>
+            <version>1.2.3</version>
+        </dependency>
+
+<!--        <dependency>-->
+<!--            <groupId>org.slf4j</groupId>-->
+<!--            <artifactId>jcl-over-slf4j</artifactId>-->
+<!--            <version>1.7.25</version>-->
+<!--        </dependency>-->
+
+<!--        <dependency>-->
+<!--            <groupId>org.logback-extensions</groupId>-->
+<!--            <artifactId>logback-ext-spring</artifactId>-->
+<!--            <version>0.1.2</version>-->
+<!--        </dependency>-->
+
+        <!-- slf4j +logback 最简日志配置   结束 -->
+
     </dependencies>
 
 
